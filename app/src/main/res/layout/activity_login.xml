@@ -28,6 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="ALASKA"
+                android:textColorHint="@color/colorPrimary"
                 android:textSize="20dp"
                 android:textStyle="bold"/>
 
@@ -70,8 +71,9 @@
 
             <ImageButton
                 android:id="@+id/login_facebook"
-                android:layout_width="47dp"
-                android:layout_height="47dp"
+                android:paddingTop="60dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/logo_facebook"
                 />

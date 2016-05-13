@@ -8,7 +8,7 @@
             android:title="Add Complaint" />
         <item
             android:id="@+id/view_complaint"
-            android:icon="@android:drawable/ic_menu_agenda"
+            android:icon="@drawable/view"
             android:title="View Complaint" />
         <!--<item-->
             <!--android:id="@+id/category"-->
@@ -24,11 +24,11 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@android:drawable/ic_dialog_map"
+                android:icon="@drawable/location"
                 android:title="Location" />
             <item
                 android:id="@+id/call"
-                android:icon="@android:drawable/btn_star_big_on"
+                android:icon="@drawable/social"
                 android:title="Social Media" />
         </menu>
     </item>
@@ -36,7 +36,7 @@
         <menu>
     <item
     android:id="@+id/Logout"
-    android:icon="@android:drawable/ic_menu_close_clear_cancel"
+    android:icon="@drawable/logout"
     android:title="Logout" />
         </menu>
     </item>
