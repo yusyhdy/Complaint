@@ -39,6 +39,8 @@
     <string name="loading">loading ...</string>
     <string name="logout">Logout</string>
 
+    <string name="app_id">YOUR_FACEBOOK_APP_ID</string>
+
     <string-array name="pil_category">
         <item>Kepala Sekolah</item>
         <item>Tata Usaha</item>

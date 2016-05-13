@@ -39,6 +39,8 @@
             android:name=".AddComplaintActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"/>
+
+             
         <!--<provider-->
             <!--android:name="com.smkpgri2.alaska.content.contentComplaintContentProvider"-->
             <!--android:authorities="com.smkpgri2.alaska.content.complaintcontentprovider"-->
