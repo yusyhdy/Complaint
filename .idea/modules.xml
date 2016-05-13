@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ALASKA.iml" filepath="$PROJECT_DIR$/ALASKA.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/midas-core/midas-core.iml" filepath="$PROJECT_DIR$/midas-core/midas-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/midas-social/midas-social.iml" filepath="$PROJECT_DIR$/midas-social/midas-social.iml" />
     </modules>
   </component>
 </project>

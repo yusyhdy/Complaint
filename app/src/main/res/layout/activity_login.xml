@@ -67,12 +67,14 @@
                 android:background="@android:color/holo_orange_dark"
                 android:text="Login"
                 android:textColor="@android:color/white" />
-            <ImageView
+
+            <ImageButton
                 android:id="@+id/login_facebook"
                 android:layout_width="47dp"
                 android:layout_height="47dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/logo_facebook" />
+                android:background="@drawable/logo_facebook"
+                />
             <ProgressBar
                 android:id="@+id/login_progress"
                 android:layout_width="wrap_content"

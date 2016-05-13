@@ -4,8 +4,8 @@ package com.smkpgri2.alaska.rest;
  * Created by smkpgri2 on 13/05/16.
  */
 public class RestVariable {
-    public static final String SERVER_URL = "http://192.168.2.116:8080/api/complaints";
-    public static final String SERVER_URL_OAUTH = "http://192.168.2.116:8080";
+    public static final String SERVER_URL = "http://192.168.2.100:8080/";
+    public static final String SERVER_URL_OAUTH = "http://192.168.2.100:8080";
 
 
     public static final String APP_ID = "419c6697-14b7-4853-880e-b68e3731e316";
