@@ -22,6 +22,7 @@ import org.meruvian.midas.social.SocialVariable;
 public class RequestTokenFacebook extends AsyncTask<String, Void, JSONObject> {
     private TaskService service;
     private Context context;
+    private String auth = SocialVariable.ALASKA_APP_ID +":"+SocialVariable.ALASKA_API_SECRET;
 
     public RequestTokenFacebook(TaskService service, Context context) {
         this.service = service;
@@ -46,7 +47,7 @@ public class RequestTokenFacebook extends AsyncTask<String, Void, JSONObject> {
                     .setParameter("social", "facebook")
                     .buildQueryMessage();
 
-            return ConnectionUtil.get(request.getLocationUri());
+            return ConnectionUtil.post(request.getLocationUri(), auth);
 
         } catch (OAuthSystemException e) {
             e.printStackTrace();

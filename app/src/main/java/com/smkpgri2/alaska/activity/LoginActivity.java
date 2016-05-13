@@ -140,6 +140,7 @@ public class LoginActivity extends AddComplaintActivity implements TaskService{
             String code = uri.getQueryParameter("code");
             if (code != null && !"".equalsIgnoreCase(code)){
                 Log.d("code ", code);
+                return code;
             }
         }
         return "null";

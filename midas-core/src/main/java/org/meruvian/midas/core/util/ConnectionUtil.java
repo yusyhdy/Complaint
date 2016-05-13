@@ -38,6 +38,8 @@ import org.json.JSONObject;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
+import android.util.Base64;
+import android.util.Log;
 
 /**
  * @author Dias Nurul Arifin
@@ -76,6 +78,35 @@ public class ConnectionUtil {
 			httpGet.setHeader("Content-Type", "application/json");
 			HttpResponse response = httpClient.execute(httpGet);
 			
+			json = new JSONObject(convertEntityToString(response.getEntity()));
+		} catch (IOException e) {
+			json = null;
+			e.printStackTrace();
+		} catch (JSONException e) {
+			json = null;
+			e.printStackTrace();
+		} catch (Exception e) {
+			json = null;
+			e.printStackTrace();
+		}
+		return json;
+	}
+
+	public static JSONObject post(String url, String auth) {
+		JSONObject json = null;
+
+		try {
+			HttpClient httpClient = new DefaultHttpClient(getHttpParams(TIMEOUT, TIMEOUT));
+			HttpPost httpPost = new HttpPost(url);
+
+			String authBase64 = "Basic " + Base64.encodeToString(auth.getBytes(), Base64.NO_WRAP);
+			Log.d("==", "UTHBASE64: " + authBase64);
+
+			httpPost.setHeader("Content-Type", "application/json");
+			httpPost.setHeader("Authorization", authBase64);
+
+			HttpResponse response = httpClient.execute(httpPost);
+
 			json = new JSONObject(convertEntityToString(response.getEntity()));
 		} catch (IOException e) {
 			json = null;
