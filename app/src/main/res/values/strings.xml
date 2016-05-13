@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">ALASKA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title">Title Complaint</string>
+    <string name="category">Category Complaint</string>
+    <string name="message">Message Complaint</string>
+
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Password Confirm</string>
+
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+
+
+
+    <string name="action">Action</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+    <string name="refresh">Refresh</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete">Confirm Delete?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="complaint_list">Complaint List</string>
+    <string name="empty_news">empty news</string>
+    <string name="failed_receive_news">failed receive news</string>
+    <string name="failed_post_news">failed pos news</string>
+    <string name="failed_delete_news">failed delete news</string>
+    <string name="loading">loading ...</string>
+    <string name="logout">Logout</string>
+
+    <string-array name="pil_category">
+        <item>Kepala Sekolah</item>
+        <item>Tata Usaha</item>
+        <item>Kurikulum</item>
+        <item>Kesiswaan</item>
+        <item>Bimbingan Konseling</item>
+        <item>Bursa Kerja Khusus</item>
+        <item>Jurusan</item>
+        <item>Adiwiyata</item>
+    </string-array>
+</resources>
